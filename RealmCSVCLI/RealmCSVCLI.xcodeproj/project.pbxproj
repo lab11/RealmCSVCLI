@@ -9,22 +9,6 @@
 /* Begin PBXBuildFile section */
 		7A2D2E3E1F68B34A006F34FA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D2E3D1F68B34A006F34FA /* main.swift */; };
 		7A2D2E441F68B4EB006F34FA /* Pods_RealmCSVCLI.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19FB99507B22540132733D23 /* Pods_RealmCSVCLI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		7A2D2E4D1F68B797006F34FA /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2D2E451F68B797006F34FA /* Commander.framework */; };
-		7A2D2E4E1F68B797006F34FA /* CSwiftV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2D2E461F68B797006F34FA /* CSwiftV.framework */; };
-		7A2D2E4F1F68B797006F34FA /* Files.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2D2E471F68B797006F34FA /* Files.framework */; };
-		7A2D2E501F68B797006F34FA /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2D2E481F68B797006F34FA /* PathKit.framework */; };
-		7A2D2E511F68B797006F34FA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2D2E491F68B797006F34FA /* Realm.framework */; };
-		7A2D2E521F68B797006F34FA /* RealmConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2D2E4A1F68B797006F34FA /* RealmConverter.framework */; };
-		7A2D2E531F68B797006F34FA /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2D2E4B1F68B797006F34FA /* SSZipArchive.framework */; };
-		7A2D2E541F68B797006F34FA /* TGSpreadsheetWriter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2D2E4C1F68B797006F34FA /* TGSpreadsheetWriter.framework */; };
-		7A2D2E551F68B7C0006F34FA /* Commander.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A2D2E451F68B797006F34FA /* Commander.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7A2D2E561F68B7C0006F34FA /* CSwiftV.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A2D2E461F68B797006F34FA /* CSwiftV.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7A2D2E571F68B7C0006F34FA /* Files.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A2D2E471F68B797006F34FA /* Files.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7A2D2E581F68B7C0006F34FA /* PathKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A2D2E481F68B797006F34FA /* PathKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7A2D2E591F68B7C0006F34FA /* Realm.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A2D2E491F68B797006F34FA /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7A2D2E5A1F68B7C0006F34FA /* RealmConverter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A2D2E4A1F68B797006F34FA /* RealmConverter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7A2D2E5B1F68B7C0006F34FA /* SSZipArchive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A2D2E4B1F68B797006F34FA /* SSZipArchive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7A2D2E5C1F68B7C0006F34FA /* TGSpreadsheetWriter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A2D2E4C1F68B797006F34FA /* TGSpreadsheetWriter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7A2D2E5E1F698F69006F34FA /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2D2E5D1F698F69006F34FA /* AppKit.framework */; };
 		7A2D2E5F1F698F81006F34FA /* AppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A2D2E5D1F698F69006F34FA /* AppKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FEFEF72F9E9CA8E050489B46 /* Pods_RealmCSVCLI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB99507B22540132733D23 /* Pods_RealmCSVCLI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -38,14 +22,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				7A2D2E5F1F698F81006F34FA /* AppKit.framework in CopyFiles */,
-				7A2D2E551F68B7C0006F34FA /* Commander.framework in CopyFiles */,
-				7A2D2E561F68B7C0006F34FA /* CSwiftV.framework in CopyFiles */,
-				7A2D2E571F68B7C0006F34FA /* Files.framework in CopyFiles */,
-				7A2D2E581F68B7C0006F34FA /* PathKit.framework in CopyFiles */,
-				7A2D2E591F68B7C0006F34FA /* Realm.framework in CopyFiles */,
-				7A2D2E5A1F68B7C0006F34FA /* RealmConverter.framework in CopyFiles */,
-				7A2D2E5B1F68B7C0006F34FA /* SSZipArchive.framework in CopyFiles */,
-				7A2D2E5C1F68B7C0006F34FA /* TGSpreadsheetWriter.framework in CopyFiles */,
 				7A2D2E441F68B4EB006F34FA /* Pods_RealmCSVCLI.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,14 +51,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A2D2E5E1F698F69006F34FA /* AppKit.framework in Frameworks */,
-				7A2D2E4D1F68B797006F34FA /* Commander.framework in Frameworks */,
-				7A2D2E4E1F68B797006F34FA /* CSwiftV.framework in Frameworks */,
-				7A2D2E4F1F68B797006F34FA /* Files.framework in Frameworks */,
-				7A2D2E501F68B797006F34FA /* PathKit.framework in Frameworks */,
-				7A2D2E511F68B797006F34FA /* Realm.framework in Frameworks */,
-				7A2D2E521F68B797006F34FA /* RealmConverter.framework in Frameworks */,
-				7A2D2E531F68B797006F34FA /* SSZipArchive.framework in Frameworks */,
-				7A2D2E541F68B797006F34FA /* TGSpreadsheetWriter.framework in Frameworks */,
 				FEFEF72F9E9CA8E050489B46 /* Pods_RealmCSVCLI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +300,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
